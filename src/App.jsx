@@ -1,11 +1,13 @@
 import "./App.css";
 
+import Joke from "./components/Joke";
 function App() {
   return (
-    <>
+    <div className="container">
       <h1> Joke Generator Using React and Joke API</h1>
-      <button>Click to generate a joke</button>
-    </>
+
+      <Joke />
+    </div>
   );
 }
 
